@@ -132,7 +132,7 @@ class App extends Component {
       <AppWrapper>
         <Searchbar onSubmit={this.onFormSubmit} />
         {status === Status.IDLE && (
-          <FrontNotification text="Type your image request in searchbar and get an awesome collection of pictures." />
+          <FrontNotification text="Type your image request in searchbar and get an of pictures." />
         )}
         {status === Status.PENDING && <Loader />}
         {status === Status.RESOLVED && (
